@@ -5,6 +5,23 @@
     <title>TYPING TEXT animatE</title>
 </head>
 <body>
-    <h1>Welcome to css learn</h1>
+  <a id = "typed" class="typewrite" data-period="2000" data-type='[ "developers.", "designers.", "innovators.", "team." ]'>
+  </a>
+  <!-- jQuery -->
+  <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+
+      <script src="js/typing.js"></script>
+
+<script src="../static/js/typed.js"> </script>
+<!-- jQuery -->
+<script src="../static/vendor/jquery/jquery.min.js"></script>
+  <script>
+  $(function(){
+      $('.element').typed({
+          strings: ["First sentence.", "Second setence."],
+          typedSpeed: 0
+      });
+  });
+  </script>
 </body>
 </html>

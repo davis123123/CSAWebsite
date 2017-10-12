@@ -1,0 +1,182 @@
+#homeHeading
+{
+	font-size: 10px;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+/* ------  Typing Text -----*/
+#typed
+{
+	font-size: 80px;
+}
+
+.css-typing
+{
+  width: 30em;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: type 5s steps(50, end);
+  animation: type 5s steps(50, end);
+}
+
+@keyframes type{
+  from{ width: 0; }
+}
+
+@-webkit-keyframes type{
+  from{ width: 0; }
+}
+
+/* ------  Animated Arrow -----*/
+#header-content
+{
+  position: absolute;
+  bottom: 0;
+  
+}
+
+.arrow {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left:-20px;
+}
+
+.bounce {
+  -webkit-animation-name: bounce;
+  -moz-animation-name: bounce;
+  -o-animation-name: bounce;
+  animation-name: bounce;
+}
+.animated{-webkit-animation-fill-mode:both;
+-moz-animation-fill-mode:both;
+-ms-animation-fill-mode:both;
+-o-animation-fill-mode:both;
+
+            animation-iteration-count: infinite;
+       -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+
+animation-fill-mode:both;
+-webkit-animation-duration:2s;
+-moz-animation-duration:2s;
+-ms-animation-duration:2s;
+-o-animation-duration:2s;
+animation-duration:2s;
+}
+
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 40% {-webkit-transform: translateY(-30px);}
+  60% {-webkit-transform: translateY(-15px);}
+}
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+  40% {-moz-transform: translateY(-30px);}
+  60% {-moz-transform: translateY(-15px);}
+}
+
+@-o-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+  40% {-o-transform: translateY(-30px);}
+  60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-15px);}
+}
+
+/* ------  About Section -----*/
+#about
+{
+  background-color: white;
+}
+
+#about-heading
+{
+  color: #444;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.5;
+  font-style: bold;
+}
+
+.about-hr
+{
+  color: #1ABC9C;
+}
+
+.about-text
+{
+  line-height: 1.8;
+  text-align: left;
+  color: #555;
+  font-size: 21px;
+  font-weight: lighter;
+}
+
+/* ------  Project -----*/
+.project
+{
+  text-align: left;
+}
+
+#blocks
+{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#involved
+{
+  background-color: #F8F8F8;
+}
+
+/* ----- Footer -----*/
+.social-btn
+{
+  color: #FFFFFF;
+
+}
+
+.social-btn:hover
+{
+  color: #FFFFFF;
+}
+
+#page_footer
+{
+  background-color: #333;
+  color: white;
+  padding: 60px 0px 30px;
+}
+
+#footer_include
+{
+  color: rgba(249,250,252,0.9);
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+#footer_heading
+{
+  color: rgba(249,250,252,0.9);
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#footer_links
+{
+  color: #fff;
+  font-size: 15px;
+  font-weight: lighter;
+  text-decoration: none;
+}

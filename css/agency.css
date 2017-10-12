@@ -239,11 +239,11 @@ header .intro-text {
     color: white;
 }
 
-header .intro-text .intro-heading {
+header .intro-text .intro-heading h1{
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 80px;
   line-height: 50px;
   margin-bottom: 25px;
 }
@@ -262,35 +262,11 @@ header .intro-text .intro-heading {
     color: white;
   }
   header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-	animation: typing-text 2s steps(21), blink 0.5s infinite alternate;
-	overflow: hidden;
-	white-space: nowrap;
-    	text-align: center;
-   	color: white;
-	align-items: center;
-	justify-content: center;	
-	border-right: 5px solid #000;
+    font-style: bold;
+    font-size: 80px;
   }
-
-	@keyframes typing-text {
-		from {
-			width: 0ch;
-		}
-		to {
-			width:21ch;
-		}
-	}
-
-	@keyframes blink {
-		from {
-			border-color: transparent;
-		}
-		to { 
-			border-color: #000;
-		}
-	}
 }
 section {
   padding: 100px 0;

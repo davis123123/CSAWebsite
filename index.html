@@ -29,6 +29,9 @@
     <!-- Circle Img -->
     <link href="css/circleImg.css" rel="stylesheet">
 
+    <!-- Custom CSS -->
+    <link href="../css/custom.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -78,13 +81,16 @@
 
     <!-- Header -->
     <header>
-        <div class="container">
+
             <div class="intro-text">
                 <div class="intro-lead-in">Welcome To CSA!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
+                <div class="intro-heading">
+                  <a id = "typed" class="typewrite" data-period="500" data-type='[ "stuff", "SAY MORE NICE THINGS", "LET stuff", "team and stuff." ]'>
+                  </a>
+                </div>
                 <a href="events.html" class="btn btn-xl">Upcoming Events</a>
             </div>
-        </div>
+
     </header>
 
     <!-- About Section -->
@@ -151,7 +157,9 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery/jquery-3.2.1.js"></script>
+
+    <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -165,6 +173,18 @@
 
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
+    <script src="js/typing.js"></script>
+    <script src="js/typed.js"> </script>
+    <script>
+    $(function(){
+        $("#typing_text").typed({
+            strings: ["First sentence.", "Second setence."],
+            typedSpeed: 0
+        });
+    });
+    </script>
+
+    <script src="../js/creative.js"></script>
 
 </body>
 
