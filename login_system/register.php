@@ -33,7 +33,6 @@ else { // Email doesn't already exist in a database, proceed...
 
     // Add user to the database
     if ( $mysqli->query($sql) ){
- echo "fail";
         $_SESSION['active'] = 0; //0 until user activates their account with verify.php
         $_SESSION['logged_in'] = true; // So we know the user has logged in
         $_SESSION['message'] =
