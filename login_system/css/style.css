@@ -11,14 +11,15 @@ body {
   font-family: 'Titillium Web', sans-serif;
 }
 
+<!-- Forgot Password -->
 a {
   text-decoration: none;
-  color:#EE82EE;
+  color:#2a5599;
   -webkit-transition: .5s ease;
   transition: .5s ease;
 }
 a:hover {
-  color: #179b77;
+  color: red;
 }
 
 .form {
@@ -47,7 +48,7 @@ a:hover {
   background: rgba(160, 179, 176, 0.25);
   color: #a0b3b0;
   font-size: 20px;
-  float: left;
+  float: left; <!-- This changes position of LogIn Button -->
   width: 50%;
   text-align: center;
   cursor: pointer;
@@ -55,11 +56,11 @@ a:hover {
   transition: .5s ease;
 }
 .tab-group li a:hover {
-  background: #179b77;
+  background: #7e9fd3;
   color: #ffffff;
 }
 .tab-group .active a {
-  background: #EE82EE;
+  background: #2a5599;
   color: #ffffff;
 }
 
@@ -76,13 +77,13 @@ h1 {
 
 h2 {
     text-align: center;
-    color: #EE82EE;
+    color: #2a5599;
     font-weight: 1000;
     margin: 0;
 }
 
 span {
-    color: #EE82EE;
+    color: #2a5599;
     font-weight: bold;
 }
 
@@ -117,7 +118,7 @@ label {
 }
 label .req {
   margin: 2px;
-  color: #1ab188;
+  color: red;
 }
 
 label.active {
@@ -186,15 +187,14 @@ textarea {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: .1em;
-  /*background: #1ab188;*/
-  background: #17359b
+  background: #2a5599;
   color: #ffffff;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   -webkit-appearance: none;
 }
 .button:hover, .button:focus {
-  background: #179b77;
+  background: #7e9fd3;
 }
 
 .button-block {
